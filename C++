@@ -1,0 +1,37 @@
+opcao=0
+montante=0
+tempo=0
+taxa=0
+juros=0
+taxa=0
+valor=0
+
+
+
+
+while opcao != 3
+print ("Escolha uma opção:")
+print ("[1] Juros Simples")
+print ("[2] Juros Compostos")
+print ("[3] Sair")
+opcao = int(input())
+
+if opcao == 1
+
+printf(*informe o valor:*)
+valor = float(input())
+printf(*informe a taxa:*
+taxa = float(input())
+printf(*informe o tempo:*)
+tempo = float(input())
+
+if opcao == 2:
+    print(*informe a o valor:*)
+    valor = float(input())
+    print(*informe a a taxa:*)
+    taxa = float(input())
+    print(i)
+    
+    juros = valor * ((1 + taxa/100) ** (tempo))
+    print(*O valor do juros e:*, juros, *\n*)
+
